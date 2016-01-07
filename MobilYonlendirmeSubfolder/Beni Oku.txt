@@ -1,0 +1,8 @@
+﻿
+
+// Bu proje subfolder senaryosuna göre hazırlanmıştır. 2 farklı durum söz konusudur.
+// İlki her sayfanın mobilinin olduğu, ikincisi ise bazı sayfaların mobilinin olmadığı durumdur.
+// İlk senaryo için global asax içindeki session_start event i ile route.config içindeki 1. alan 
+// açılması gerekmektedir. HomeController larda index lerin üzerinde ki attributelerinde kaldırılması gerekiyor.
+
+// İkinci senaryo şuan çalışır durumdadır. 
