@@ -23,6 +23,11 @@ namespace MobilYonlendirmeSubfolder
         //    {
         //        Response.Redirect("~/mobile" + path);
         //    }
+        //    else
+        //    {
+        //        path = path.Contains("/mobile/") ? path.Substring(7) : path;
+        //        Response.Redirect(path);
+        //    }
         //}
     }
 }
